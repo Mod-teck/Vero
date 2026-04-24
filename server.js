@@ -30,7 +30,7 @@ const errorHandler = require('./middleware/errorHandler');
 const { requestLogger } = require('./middleware/requestLogger');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 // ============================================
 // Ensure required directories exist

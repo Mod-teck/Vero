@@ -233,12 +233,12 @@ app.use((req, res) => {
 // Global Error Handler
 // ============================================
 
-app.use((err, req, res, next) => {
-  if (err.code === 'EBADCSRFTOKEN') {
-    return res.status(403).send('Invalid CSRF Token');
-  }
-  next(err);
-});
+// app.use((err, req, res, next) => {
+//   if (err.code === 'EBADCSRFTOKEN') {
+//     return res.status(403).send('Invalid CSRF Token');
+//   }
+//   next(err);
+// });
 
 app.use(errorHandler);
 

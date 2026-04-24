@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for vero-mto8eg on 2026-04-24T01:53:24Z
+# fly.toml app configuration file generated for vero-imeqbw on 2026-04-24T02:02:54Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'vero-mto8eg'
-primary_region = 'cdg'
+app = 'vero-imeqbw'
+primary_region = 'ams'
 
 [build]
 
